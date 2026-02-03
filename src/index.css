@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-netflix-red: #E50914;
+  --color-netflix-black: #141414;
+  --color-netflix-dark: #181818;
+  --color-netflix-gray: #2F2F2F;
+  --color-netflix-light: #E5E5E5;
+
+  --font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-netflix-black text-white;
+    font-family: 'Inter', sans-serif;
+  }
+}
